@@ -16,7 +16,7 @@ RUN python3 -m pip install --upgrade --no-cache-dir jupyter==1.0.0 jupyterlab==4
 RUN rm -rf /root/.cache
 
 # Install Julia
-RUN wget -O - https://julialang-s3.julialang.org/bin/linux/x64/1.9/julia-1.9.1-linux-x86_64.tar.gz | tar -xzvf - -C /usr/local --strip-components=1
+RUN wget -O - https://julialang-s3.julialang.org/bin/linux/x64/1.9/julia-1.9.2-linux-x86_64.tar.gz | tar -xzvf - -C /usr/local --strip-components=1
 RUN julia -e 'using InteractiveUtils; versioninfo(; verbose=true)'
 
 # Set `JULIA_CPU_TARGET` to same value as default Julia builds, to ensure we
