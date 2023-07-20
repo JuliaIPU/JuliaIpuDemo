@@ -10,7 +10,7 @@ The free plan includes unlimited number of 6-hour sessions on the IPU, perfect f
 
 To get started, click the button below:
 
-[![Run on Gradient](https://assets.paperspace.io/img/gradient-badge.svg)](https://console.paperspace.com/github/JuliaIPU/JuliaIpuDemo?container=mosegiordano/julia-ipu-demo&machine=Free-IPU-POD4)
+[![Run on Gradient](https://assets.paperspace.io/img/gradient-badge.svg)](https://console.paperspace.com/github/JuliaIPU/JuliaIpuDemo?container=mosegiordano/julia-ipu-demo:v1.1.0&machine=Free-IPU-POD4)
 
 <details><summary>Manual start on Paperspace</summary>
 
