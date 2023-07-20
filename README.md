@@ -8,6 +8,12 @@ If you find this interesting, please consider starring the `IPUToolkit.jl` repos
 [Paperspace](https://www.paperspace.com/) is a cloud computing service which offers [IPU compute time](https://www.paperspace.com/graphcore).
 The free plan includes unlimited number of 6-hour sessions on the IPU, perfect for trying it out.
 
+To get started, click the button below:
+
+[![Run on Gradient](https://assets.paperspace.io/img/gradient-badge.svg)](https://console.paperspace.com/github/JuliaIPU/JuliaIpuDemo?container=mosegiordano/julia-ipu-demo&machine=Free-IPU-POD4)
+
+<details><summary>Manual start on Paperspace</summary>
+
 After [signing in Paperspace](https://console.paperspace.com/login) (you can also log in with your GitHub or Google account, without creating a new Paperspace one), create a new project, and then create a new IPU notebook:
 
 ![Set up IPU notebook on Paperspace](./figures/paperspace.png)
@@ -23,3 +29,5 @@ After [signing in Paperspace](https://console.paperspace.com/login) (you can als
 When the sessions begins, you can open and run the notebooks from the file explorer.
 If you prefer, you can also start JupyterLab from the corresponding button in the sidebar on the left.
 All dependencies of these notebooks are already installed in the suggested Docker container, so you should be able to run them straight away.
+
+</details>
